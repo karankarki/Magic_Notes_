@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Salsa', cursive;
+}
+.container1{
+    background-color: rgba(8, 8, 8, 0.603);
+}
+.container1 .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .items{
+    width:224px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+
+.navbar .logo img{
+    height:52px;
+    width:56px;
+    
+}
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    margin-top:3px;
+}
+
+
+
+.items li a{
+    text-decoration: none;
+    color: rgba(221, 209, 209, 0.877);
+    font-size: 22px;
+}
+
+.navbar .search{
+    margin-left: 5px;
+}
+.navbar .search input{
+    margin-right: 5px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius:4px;
+}
+
+.myh1{
+    background-color:#1976862c;
+    margin-top:10px;
+
+
+}
+.addnotes h1{
+    position: relative;
+color:rgb(45, 54, 92);
+    left:5%;
+ 
+}
+
+.heading{
+    width: 100%;
+    margin-top:25px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* border: 2px solid red; */
+
+}
+.addnotes .heading h2{
+    width: fit-content;
+    margin: auto;
+}
+.container2 .addnotes .heading input{
+    width:80%;
+    height:40px;
+    border: 2px solid black;
+    padding-left:5px;
+    font-size:22px;
+    border-radius: 5px;
+    margin:auto;
+    background-color: rgba(40, 243, 243, 0.226);
+    color:rgba(9, 42, 68, 0.788);
+
+}
+
+.noteis{
+margin-top:25px ;
+display: flex;
+justify-content: center;
+}
+
+
+.addnotes{
+   width:80%;
+   margin:auto;
+}
+
+.noteis textarea{
+    width:491px;
+    height:268px;
+    padding:5px;
+    border:2px solid black;
+    border-radius: 8px;
+    color:rgb(0, 0, 0);
+}
+
+.addnotes button{
+    width:fit-content;
+    padding:5px ;
+    height:50px;
+    font-size:22px;
+    background-color:rgba(86, 235, 86, 0.322);
+    display: block;
+    margin-top: 9px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    left: 66%;
+
+}
+
+.addnotes button:hover{
+    background-color:rgba(86, 235, 86, 0.637);
+}
+
+.notes_are{
+    position: relative;
+    top: 15px;
+    width: 90%;
+    margin: auto;
+    border-top: 3px dashed black;
+}
+
+.head_2{
+    margin-top: 7px;
+    background-color:rgba(20, 117, 146, 0.651);
+}
+.notes_are h1{
+width:fit-content;
+margin: auto;
+
+}
+
+
+.notes_are .notes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 5px;
+}
+
+.notes_are .notes .note{
+    border:2px solid black;
+}
+
+.notes_are .notes .note button{
+    width:fit-content;
+    padding:5px ;
+    height:30px;
+    font-size:14px;
+    background-color:rgba(86, 235, 86, 0.322);
+    display: block;
+    margin-top: 4px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    left: 80%;
+
+}
